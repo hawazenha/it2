@@ -1,5 +1,5 @@
 
-window.onload = function() {
+/*window.onload = function() {
     let mode = localStorage.getItem("theme");
 
     if (mode === "dark") {
@@ -20,7 +20,7 @@ btn.onclick = function() {
         localStorage.setItem("theme", "light"); 
         btn.innerHTML = " Dark Mode";
     }
-};
+};*/
 
 function searchDoctor() {
     let text = document.getElementById("doctorSearch").value;
