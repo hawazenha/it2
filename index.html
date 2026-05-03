@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <button id="btn" class="mode-btn">Dark Mode</button>
+    <header>
+        <div class="logo">MedicalZone</div>
+     </header>
+   
+    <main>
+        <div class="main-container">
+            <form class="box" id="log-in" onsubmit="Login(event)">
+                <h2>Sign in</h2>
+                <input type="email" id="login-mail" placeholder="Email">
+                <input type="password" id="login-Pass" placeholder="Password" >
+                <button type="submit">Sign in</button>
+                <div class="link">
+                    Don't have an account? <a onclick="change()">Sign up</a>
+                </div>
+            </form>
+
+            <form class="box" id="sign-up" onsubmit="Signup(event)">
+                <h2>Sign up</h2>
+                <input type="text" id="user-name" placeholder="Full Name">
+                <input type="email" id="user-mail" placeholder="Email">
+                <input type="password" id="user-Pass" placeholder="Password" >
+                <button type="submit">Sign up</button>
+                <div class="link">
+                    Already have an account? <a onclick="change()">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+   
+</body>
+</html>
