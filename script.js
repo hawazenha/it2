@@ -6,6 +6,7 @@
         let checkBtn = document.getElementById("btn") ;
         if (checkBtn){
             checkBtn.innerHTML= "Light Mode";
+        }
     }
 
 let btn = document.getElementById("btn");
