@@ -1,11 +1,12 @@
-window.onload = function() {
+
     let mode = localStorage.getItem("theme");
 
     if (mode === "dark") {
         document.body.classList.add("dark-mode");
-        document.getElementById("btn").innerHTML = " Light Mode";
+        let checkBtn = document.getElementById("btn") ;
+        if (checkBtn){
+            checkBtn.innerHTML= "Light Mode";
     }
-};
 
 let btn = document.getElementById("btn");
 
