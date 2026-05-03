@@ -60,7 +60,7 @@ function Login(event) {
     }
 }
 
-window.onload = function() {
+/*window.onload = function() {
     let mode = localStorage.getItem("them");
 
     if (mode === "dark") {
@@ -81,7 +81,7 @@ btn.onclick = function() {
         localStorage.setItem("them", "light");
          btn.innerHTML = "Dark Mode";
     }
-};
+};*/
 
 function clearData() {
     document.getElementById('user-name').value = '';
